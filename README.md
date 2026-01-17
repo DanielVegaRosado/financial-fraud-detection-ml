@@ -3,7 +3,7 @@ This project simulates a critical challenge in the Fintech and Banking sectors: 
 
 In real-world scenarios, fraud represents less than 1% of data. A standard model could achieve 99% accuracy by simply saying "No Fraud" every time, but it would fail to catch the criminals. This project focuses on **handling imbalanced datasets** and prioritizing metrics like **Recall** and **Precision** over simple Accuracy.
 
-## 🛠️ Tech Stack
+## Tech Stack
 *   **Python**: Core logic.
 *   **Scikit-Learn**: Machine Learning implementation (Random Forest) and data splitting.
 *   **Pandas & NumPy**: Synthetic data generation and manipulation.
@@ -55,4 +55,5 @@ The script generates a Confusion Matrix to visually evaluate the model's perform
 The model achieves a high detection rate for the minority class (Fraud) while maintaining a low false alarm rate for legitimate users, demonstrating the effectiveness of Supervised Learning for Anomaly Detection.
 
 ---
+
 *Author: Daniel Vega Rosado | Computer Engineering Student*
